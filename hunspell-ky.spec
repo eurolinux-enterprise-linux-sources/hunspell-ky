@@ -2,7 +2,7 @@ Name: hunspell-ky
 Summary: Kirghiz hunspell dictionaries
 %define upstreamid 20090415
 Version: 0.%{upstreamid}
-Release: 7%{?dist}
+Release: 8%{?dist}
 Group: Applications/Text
 Source: http://ftp.gnu.org/gnu/aspell/dict/ky/aspell6-ky-0.01-0.tar.bz2
 URL: http://borel.slu.edu/crubadan/
@@ -40,6 +40,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/myspell/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.20090415-8
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.20090415-7
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
